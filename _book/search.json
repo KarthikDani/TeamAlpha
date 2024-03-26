@@ -2,9 +2,9 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "TeamAlphaDoc",
+    "title": "Team Alpha Documentation",
     "section": "",
-    "text": "Preface\nThis is a Quarto book.\nTo learn more about Quarto books visit https://quarto.org/docs/books.\n\n1 + 1\n\n[1] 2"
+    "text": "Bulletin\n\nThis is the online documentation for Team Alpha - Rosalind Franklin AI + X with Eekigai Institute.\nPreferably view this either on Laptop or Landscape mode in mobile for the best experience.\n\nProject plan has been created."
   },
   {
     "objectID": "intro.html",
@@ -26,5 +26,40 @@
     "title": "References",
     "section": "",
     "text": "Knuth, Donald E. 1984. “Literate Programming.” Comput.\nJ. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97."
+  },
+  {
+    "objectID": "project-plan.html#introduction",
+    "href": "project-plan.html#introduction",
+    "title": "1  Project Plan",
+    "section": "1.1 Introduction",
+    "text": "1.1 Introduction\nThis project aims to develop augmented reality earbuds that use their micro- phones to capture surrounding sounds, which are then selectively amplified to create customized hearing aids. This involves a multidisciplinary approach, integrating advancements in artificial intelligence (AI), audio signal process- ing, and hardware engineering. The plan is divided into data science and engineering/hardware steps, incorporating a Bayesian approach and Fourier analysis for sound processing."
+  },
+  {
+    "objectID": "project-plan.html#data-science",
+    "href": "project-plan.html#data-science",
+    "title": "1  Project Plan",
+    "section": "1.2 Data Science",
+    "text": "1.2 Data Science\n\n1.2.1 Preliminary Research and Data Collection\n\nConduct a literature review on auditory perception, hearing aid technology, and augmented reality applications in hearing devices.\nCollect a diverse dataset of spoken words in multiple languages, including dialects and accents.\nGather audio data under various environmental conditions to simulate real-world scenarios.\nCollect anonymized hearing profiles through partnerships with audiologists or hearing research institutions.\n\n\n\n1.2.2 Development of Hearing Assessment Tests\n\nDesign interactive tests to assess an individual’s hearing capabilities, focusing on different frequencies, volumes, and languages.\nImplement a Bayesian approach to adaptively refine the assessment based on user responses, enhancing accuracy and efficiency.\nValidate the tests with control groups across different demographics to ensure reliability and universality.\n\n\n\n1.2.3 Custom Hearing Profile Creation\n\nDevelop algorithms to analyze test results and create detailed hearing profiles, highlighting specific weaknesses in frequency recognition and language processing.\nUse machine learning models to predict hearing loss patterns and rec- ommend personalized amplification strategies.\n\n\n\n1.2.4 Speech Recognition and Processing\n\nTrain AI models for accurate speech recognition, focusing on language and dialect differentiation. Implement audio signal processing techniques to isolate spoken words from background noise, enhancing clarity for the user.\nDevelop algorithms to dynamically adjust audio based on the user’s hearing profile, selectively amplifying difficult words or frequencies.\n\n\n\n1.2.5 Simulation and Testing\n\nCreate simulations to test the effectiveness of the augmented hearing models in various auditory environments.\nIterate on the model based on feedback, focusing on improving accuracy and user satisfaction."
+  },
+  {
+    "objectID": "project-plan.html#engineeringhardware",
+    "href": "project-plan.html#engineeringhardware",
+    "title": "1  Project Plan",
+    "section": "1.3 Engineering/Hardware",
+    "text": "1.3 Engineering/Hardware\n\n1.3.1 Hardware Specification and Design\n\nDesign earbuds with advanced microphone arrays for effective noise cancellation and sound capture. Ensure the hardware supports high-fidelity audio recording and playback, with the capability to modify sounds in real-time based on AI driven insights.\nIntegrate sensors to measure in-ear acoustic responses, facilitating dynamic adjustments.\n\n\n\n1.3.2 Development of Embedded Systems\n\nSelect low-power DSP chips for efficient audio processing.\nOptimize embedded systems for power efficiency, ensuring long battery life under active audio processing.\n\n\n\n1.3.3 Prototype Manufacturing\n\nUtilize 3D printing for rapid prototyping.\nRefine design based on iterative testing feedback.\n\n\n\n1.3.4 Integration and Testing\n\nIntegrate AI-driven software with hardware components.\nConduct real-world testing and collect user feedback.\n\n\n\n1.3.5 Final Adjustments and Launch Preparation\n\nMake final product adjustments.\nPrepare for regulatory approvals and market launch."
+  },
+  {
+    "objectID": "project-plan.html#fourier-analysis-for-audio-processing",
+    "href": "project-plan.html#fourier-analysis-for-audio-processing",
+    "title": "1  Project Plan",
+    "section": "1.4 Fourier Analysis for Audio Processing",
+    "text": "1.4 Fourier Analysis for Audio Processing\n\nFourier analysis is a mathematical technique for transforming signals between time and frequency domains. It’s crucial for identifying and manipulating specific frequencies within an audio signal, enabling selective amplification of sounds as needed by the user’s hearing profile.\n\nA key equation used in Fourier analysis is the Fourier transform, which converts a time-domain signal into its constituent frequencies:\n\\[\nF(\\omega) = \\int_{-\\infty}^{\\infty} f(t) e^{-j\\omega t} dt\n\\]"
+  },
+  {
+    "objectID": "project-plan.html#bibliography",
+    "href": "project-plan.html#bibliography",
+    "title": "1  Project Plan",
+    "section": "1.5 Bibliography",
+    "text": "1.5 Bibliography\n\nCommon Voice Project. Mozilla Foundation. Common Voice. https://commonvoice.mozilla.org/en\nCunanan, K. M., et al. (2017). A Bayesian adaptive design for clinical trials in rare diseases. Clinical Trials, 14(5), 422-430. https://doi.org/10.1177/1740774517710193\nMasood, M., and Al-Jumaily, A. (2018). Deep Learning for Predicting Hearing Loss from Audiometric Data. International Journal of Engineering & Technology, 7(2.13), 88-92.\nBrandstein, M., and Ward, D. (Eds.). (2001). Microphone Arrays: Signal Processing Techniques and Applications. Springer Berlin Heidelberg.\nMozilla Foundation. (2020). DeepSpeech: A TensorFlow implementation of Baidu’s DeepSpeech architecture. https://github.com/mozilla/DeepSpeech\nLyons, R. G. (2010). Understanding Digital Signal Processing (3rd ed.). Prentice Hall. This book provides comprehensive coverage of DSP concepts, including Fourier analysis, which is foundational for audio processing tasks in the project.\nU.S. Food and Drug Administration. (2019). Regulatory Considerations for Hearing Aid Devices and Personal Sound Amplification Products: Guidance for Industry and Food and Drug Administration Staff. https://www.fda.gov/regulatory-information/search-fda-guidance-documents/regulatory-considerations-hearing-aid-devices-and-personal-sound-amplification-products\nFreesound. Freesound. A collaborative database of Creative Commons Licensed sounds. https://freesound.org"
   }
 ]

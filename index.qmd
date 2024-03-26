@@ -1,9 +1,7 @@
-# Preface {.unnumbered}
+# Bulletin {.unnumbered}
 
-This is a Quarto book.
+> This is the online documentation for Team Alpha - Rosalind Franklin AI + X with Eekigai Institute.
+>
+> Preferably view this either on Laptop or Landscape mode in mobile for the best experience.
 
-To learn more about Quarto books visit <https://quarto.org/docs/books>.
-
-```{r}
-1 + 1
-```
+Project plan has been created.
